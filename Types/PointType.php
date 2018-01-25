@@ -1,6 +1,6 @@
 <?php
 
-namespace Realestate\MssqlBundle\Types;
+namespace tommbee\MssqlBundle\Types;
 
 use Doctrine\DBAL\Types\Type;
 use Doctrine\DBAL\Platforms\AbstractPlatform;

@@ -1,5 +1,5 @@
 {
-    "name": "realestateconz/mssql-bundle",
+    "name": "tommbee/mssql-bundle",
     "type": "symfony-bundle",
     "description": "Microsoft SQL Server Bundle for Symfony 2",
     "keywords": ["mssql", "sql server", "driver"],
@@ -23,8 +23,8 @@
     },
     "autoload": {
         "psr-0": {
-            "Realestate\\MssqlBundle": ""
+            "tommbee\\MssqlBundle": ""
         }
     },
-    "target-dir": "Realestate/MssqlBundle"
+    "target-dir": "tommbee/MssqlBundle"
 }

@@ -5,7 +5,7 @@
  * @author      Ken Golovin <ken@webplanet.co.nz>
  */
 
-namespace Realestate\MssqlBundle\Types;
+namespace tommbee\MssqlBundle\Types;
 
 class RealestateDateTime extends \DateTime
 {
