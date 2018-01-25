@@ -43,6 +43,10 @@ class Driver implements \Doctrine\DBAL\Driver
             );
         }
         
+        if (version_compare(phpversion(), '7', '>=')) {
+            $conn->setAttribute(\PDO::DBLIB_ATTR_STRINGIFY_UNIQUEIDENTIFIER, true);
+        }
+        
         return $conn;
     }
 
